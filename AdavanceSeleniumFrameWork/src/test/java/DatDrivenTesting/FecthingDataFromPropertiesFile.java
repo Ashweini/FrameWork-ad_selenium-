@@ -16,7 +16,7 @@ public class FecthingDataFromPropertiesFile {
 
 //pulling back
 		//push Two
-		
+		//Hello-Pulling again
 		
 		//connection to read the data from property file
 		//connection to the physical file path
