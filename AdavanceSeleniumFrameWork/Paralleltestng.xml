@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  
+  s<test thread-count="5" parallel="tests" name="Test">
+    <classes>
+      <class name="Organization.CreateProduct"/>
+      <class name="Organization.Create_Serarch_DeleteCreatedProduct"/>
+      <class name="Organization.CompaignWithProduct"/>
+    </classes>
+   </test> <!-- Test -->
+  
+  <test  name="TestRunner2">
+	<classes>
+      <class name="Organization.Create_Serarch_DeleteCreatedProduct"/>
+      </classes>
+  </test> <!-- Test -->
+  
+      
+  <test name="TestRunner3">
+	<classes>
+      <class name="Organization.CompaignWithProduct"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test  name="TestRunner4">
+	<classes>
+      <class name="Organization.CreateOrganization"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  
+    <test  name="TestRunner5">
+	<classes>
+      <class name="Organization.CreateCompaign"/>
+      </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->
