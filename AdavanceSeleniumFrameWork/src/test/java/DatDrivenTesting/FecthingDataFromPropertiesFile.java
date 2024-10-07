@@ -14,7 +14,7 @@ public class FecthingDataFromPropertiesFile {
 
 	public static void main(String[] args) throws Throwable {
 
-
+//pulling back
 		//connection to read the data from property file
 		//connection to the physical file path
 		//step-1 : create a object of FileInputStream class
